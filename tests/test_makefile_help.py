@@ -3,10 +3,6 @@ from unittest import mock
 import makefile_help
 
 
-def test_version():
-    assert makefile_help.__version__ == '0.1.0'
-
-
 def test_help_from_makefile():
     read_data = """help: # Display help and exit
 	python -m makefile_help

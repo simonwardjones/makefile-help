@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "makefile-help"
-version = "0.1.0"
+version = "0.1.1"
 description = "Autogenerates pretty Makefile help"
 license="MIT"
 authors = ["simonwardjones <simonwardjones@yahoo.co.uk>"]

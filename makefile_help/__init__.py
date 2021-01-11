@@ -1,10 +1,12 @@
-__version__ = '0.1.0'
-
 import logging
 import os
 import pydoc
 import re
 from collections import defaultdict
+
+import pkg_resources
+
+__version__ = pkg_resources.get_distribution('makefile-help').version
 
 logging.basicConfig()
 logger = logging.getLogger(__file__)
