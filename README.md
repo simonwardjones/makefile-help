@@ -24,7 +24,7 @@ help: # @@Utils@@ Display help and exit
 Comment each command with a description and optionally a section using `@@`  
 The makefile_help script will then generate a help string.
 
-[../makefile-help/image/demo.gif](https://raw.githubusercontent.com/simonwardjones/makefile-help/main/image/demo.gif)
+![../makefile-help/image/demo.gif](https://raw.githubusercontent.com/simonwardjones/makefile-help/main/image/demo.gif)
 
 ---
 ### Installation
