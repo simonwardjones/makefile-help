@@ -1,5 +1,7 @@
 # Makefile help
 
+![](https://img.shields.io/pypi/v/makefile-help)
+
 This small package helps by generating colourful help for Makefiles.
 - [Makefile help](#makefile-help)
     - [Why?](#why)
