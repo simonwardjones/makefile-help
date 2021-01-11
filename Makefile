@@ -15,7 +15,7 @@ install: # @@Python@@ Install package using poetry
 test: # @@Python@@ Run pytest in poetry environment
 	poetry run pytest -vvs
 
-build: # @@Python@@ Build the package
+build: test # @@Python@@ Build the package
 	poetry build
 
 publish: build # @@Python@@ Publish the package to PyPi
